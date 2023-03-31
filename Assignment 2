@@ -1,0 +1,11 @@
+def sum_of_squares(numbers):
+    """
+    Computes the sum of squares of all the numbers in the given list.
+
+    Args:
+        numbers: A list of numbers.
+
+    Returns:
+        The sum of squares of all the numbers in the list.
+    """
+    return sum(x**2 for x in numbers)
